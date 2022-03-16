@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="Baby Yoda Biography" content="Star Wars, Baby Yoda from the Mandalorian. 
+        Learn more about him including his: background, emotions, skills, friends & foes, 
+        favorite foods, and how to contact him." />
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <title>Baby Yoda Bio</title>
         <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" media="screen"  href="media.css"/>
@@ -19,7 +23,7 @@
                     <li><a onClick="scrollToSkills()">SKILLS</a></li>
                 </ul>
             </div>
-            <a onClick="scrollToHome()"><img class="yoda_home" src="./logos/logo.svg" /></a>
+            <a onClick="scrollToHome()"><img class="yoda_home" src="./logos/logo.svg" alt="yoda_logo"/></a>
             <div class="menu_right">
                 <ul>
                     <li><a onClick="scrollToFriends()">FRIENDS</a></li>
@@ -52,9 +56,9 @@
             </div>
             <div class="background_section">
                 <div class="photo_gallery">
-                    <img class="he_img he_img_1" src="./background images/soup.jpg" />
-                    <img class="he_img he_img_2" src="./background images/stroller.png" />
-                    <img class="he_img he_img_3" src="./background images/buttons.jpg" />
+                    <img class="he_img he_img_1" src="./background images/soup.jpg" alt="yoda_soup" />
+                    <img class="he_img he_img_2" src="./background images/stroller.png" alt="yoda_stroller" />
+                    <img class="he_img he_img_3" src="./background images/buttons.jpg" alt="yoda_buttons"/>
                 </div>
                 <div class="background_info">
                     <h3 class="subheading_back">THE THEORIES</h3>
@@ -66,7 +70,7 @@
                         they range from the reasonable to the be, uh... less reasonable.
                         Hrmmm.
                     </p>
-                    <button class="back_button_1" href="#">MEET HIS FRIENDS</button>
+                    <button class="back_button_1" onClick="scrollToFriends()">MEET HIS FRIENDS</button>
                     <button class="back_button_2"
                         href="https://www.cnet.com/news/who-or-what-is-baby-yoda-in-the-mandalorian-our-wildest-theories-so-far/"
                     >
@@ -138,10 +142,10 @@
                         </div>
                     </div>
                     <button id="prev">
-                        <img src="./arrow.png" alt="">
+                        <img src="./arrow.png" alt="nav_arrow">
                     </button>
                     <button id="next">
-                        <img src="./arrow.png" alt="">
+                        <img src="./arrow.png" alt="nav_arrow">
                     </button>  
                 
             </div>
@@ -158,7 +162,7 @@
         <section id="skills" class="skills_section">
             <div class="skills_grid"></div>
                 <div class="skills_col">
-                    <p class="circle">1</p>
+                    <span class="circle">1</span>
                     <h2 class="headline">THE FORCE</h2>
                     <p class="skill_info">Long until this small creature achieves jedi master status it won’t be. 
                         The original Yoda achieved that rank at the age of 100. 
@@ -166,7 +170,7 @@
                     </p>
                 </div>
                 <div class="skills_col">
-                    <p class="circle">2</p>
+                    <span class="circle">2</span>
                     <h2 class="headline">SERIOUS CUTENESS</h2>
                     <p class="skill_info">Helpless in the face of baby Yoda humanity is. 
                         Those saucer-size eyes, x-wing ears, adorable enough to melt any heart and three-digit mitts are. 
@@ -175,7 +179,7 @@
                     </p>
                 </div>
                 <div class="skills_col">
-                    <p class="circle">3</p>
+                    <span class="circle">3</span>
                     <h2 class="headline">HIDE AND SEEK</h2>
                     <p class="skill_info">Not the fun, hiding for his life aboard the Mandalorian's ship no-high-stakes preschool
                         version though -- baby Yoda is. That when you see how cute he is peeking out from behind machinery 
@@ -192,8 +196,8 @@
             <h2 class="head_foes">FOES</h2>
         </div>
         <section class="friend">
-            <button class="pre-btn"><img src="./arrow.png" alt=""></button>
-            <button class="nxt-btn"><img src="./arrow.png" alt=""></button>
+            <button class="pre-btn"><img src="./arrow.png" alt="nav_arrow"></button>
+            <button class="nxt-btn"><img src="./arrow.png" alt="nav_arrow"></button>
             <div class="slider_container">
                     <div class="friend_card">
                         <div class="friend_img_container">
@@ -252,7 +256,7 @@
             <div class="food_grid"></div>
                 <div class="food_col">
                     <div class="stars">
-                        <img class="star" src="./star.svg" />
+                        <img class="star" src="./star.svg" alt="star" />
                     </div>
                     <h2 class="food">FROGS</h2>
                     <p class="food_info">Good for him all frogs are. It doesn't
@@ -262,8 +266,8 @@
                 </div>
                 <div class="food_col">
                     <div class="stars">
-                        <img class="star" src="./star.svg" />
-                        <img class="star" src="./star.svg" />
+                        <img class="star" src="./star.svg" alt="star"/>
+                        <img class="star" src="./star.svg" alt="star"/>
                     </div>
                     <h2 class="food">CUP OF SOUP</h2>
                     <p class="food_info">All soups he loves, but warm frog leg soup
@@ -272,9 +276,9 @@
                 </div>
                 <div class="food_col">
                     <div class="stars">
-                        <img class="star" src="./star.svg" />
-                        <img class="star" src="./star.svg" />
-                        <img class="star" src="./star.svg" />
+                        <img class="star" src="./star.svg" alt="star"/>
+                        <img class="star" src="./star.svg" alt="star"/>
+                        <img class="star" src="./star.svg" alt="star"/>
                     </div>
                     <h2 class="food">CHICKY NUGGIES</h2>
                     <p class="food_info">His absolute fave especially when it's
@@ -289,7 +293,7 @@
     <!-- Contact Section -->
         <section id="contact" class="contact_section">
             <div class="left_contact">
-                <img class="yoda_contact" src="./logos/logo.svg" />
+                <img class="yoda_contact" src="./logos/logo.svg" alt="yoda_logo"/>
                 <hr class="green_line"/>
                 <div class="contact_info_container">
                     <p class="c_text_1">If lost or stolen, contact the Mandalorian immediately. 
@@ -323,7 +327,7 @@
                     </div>
                     <div className='form-field'>
                         <label className='form-label'>MESSAGE</label>
-                        <textarea type='text'></textarea>
+                        <textarea rows="5" cols="40" type='text'></textarea>
                     </div>
                     
                     <div className='buttonSection'>

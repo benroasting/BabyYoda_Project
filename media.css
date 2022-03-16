@@ -10,6 +10,10 @@
     }    
     .menu_right{
         margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    video{
+        margin-top: 150px;
     }
     .cuteness_section{
         margin-top: 20rem;
@@ -22,17 +26,80 @@
     .title_1, .title_2{
         font-size: 36pt;
     }
-
-
+    .left_contact{
+        width: 100%;
+    }
+    .right_contact{
+        width: 100vw;
+        margin-top:2rem;
+    }
+    input[type=text]{
+        margin-left: 3rem;
+    }
+    textarea[type=text] {
+        margin-left: 3rem;
+    }
+    label {
+        margin-left: 3rem;
+    }
+    .contact_section{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 820px) {
+    header{
+        display: flex;
+        flex-direction:column;
+        height: 150px;
+    }
+    .menu_left{
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }    
+    .menu_right{
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    video{
+        margin-top: 150px;
+    }
+    .title_1, .title_2{
+        font-size: 32pt;
+    }
     .background_section{
         display: flex;
         flex-direction:column;
     }
-    .title_1, .title_2{
-        font-size: 36pt;
+    .emo_slider_heading{
+        line-height: 38pt;
+        margin-bottom: -20px;
+    }
+    .emo_info{
+        max-width: 350px;
+        max-width: 100%;
+    }
+    .left_contact{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .right_contact{
+        width: 100%;
+        margin-top:0;
+    }
+    .contact_form{
+        padding-top: 1rem;
+
     }
 
+}
+@media screen and (max-width: 975px) {
+    .contact_section{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }
+    .right_contact{
+        margin-top: -5rem;
+    }
 }

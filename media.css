@@ -14,17 +14,32 @@
     }
     video{
         margin-top: 150px;
+        margin-bottom: 10rem;
     }
     .cuteness_section{
-        margin-top: 20rem;
-        color: black;
+        margin-top: 45%;
+        color: white;
+    }
+    .heading_1{
+        margin-top: 5rem;
     }
     .background_section.photo_gallery{
         flex-wrap: wrap;
         width: 420px;
+        padding: 1rem;
+    }
+    .back_button_1{
+        margin-top: 0.5rem;
+    }
+    .back_button_2{
+        margin-top: 0.5rem;
     }
     .title_1, .title_2{
         font-size: 28pt;
+    }
+    .emo_slider_heading{
+        font-size: 28pt;
+        line-height: 28pt;
     }
     .head_friends{
         font-size: 28pt;
@@ -89,6 +104,10 @@
     video{
         margin-top: 150px;
     }
+    .cuteness_section{
+        position: relative;
+        margin-top: 35%;
+    }
     .title_1, .title_2{
         font-size: 32pt;
     }
@@ -96,12 +115,25 @@
         display: flex;
         flex-direction:column;
     }
+    .photo_gallery{
+        padding: 1rem;
+    }
     .background_info{
         margin-left: 2rem;
     }
+    .back_button_1{
+        margin-top: 0.5rem;
+    }
+    .back_button_2{
+        margin-top: 0.5rem;
+    }
+    .emotions{
+        height: 500px;
+    }
     .emo_slider_heading{
-        line-height: 38pt;
-        margin-bottom: -20px;
+        font-size: 32pt;
+        line-height: 32pt;
+
     }
     .emo_info{
         max-width: 350px;
@@ -110,12 +142,12 @@
     .skills_section{
         display: flex;
         flex-wrap:wrap;
-        margin-top: 0rem;
+        margin-top: -3rem;
     }
     .skills_grid{
         display: flex;
         flex-direction: column;
-        margin-bottom: -3rem;
+        margin-bottom: 3rem;
     }
     .skills_col{
         margin: 0;
@@ -138,9 +170,7 @@
     }
     .food_section{
         display: flex;
-        flex-direction: column;
-        margin-top: -2rem;
-        padding-left: 6rem;
+        flex-wrap:wrap;
     }
     .food_grid{
         display: flex;
@@ -152,7 +182,7 @@
     }
     .left_contact{
         width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
     .contact_info_container{
         padding: 1rem;
@@ -165,7 +195,6 @@
     .contact_form{
         padding-top: 1rem;
     }
-
 }
 @media screen and (max-width: 975px) {
     .skills_section{

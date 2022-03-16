@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+    header{
+        display: flex;
+        flex-direction:column;
+        height: 150px;
+    }
+    .menu_left{
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }    
+    .menu_right{
+        margin-top: -20px;
+    }
+    .cuteness_section{
+        margin-top: 20rem;
+        color: black;
+    }
+    .background_section.photo_gallery{
+        flex-wrap: wrap;
+        width: 420px;
+    }
+    .title_1, .title_2{
+        font-size: 36pt;
+    }
+
+
+}
+
+@media screen and (max-width: 820px) {
+    .background_section{
+        display: flex;
+        flex-direction:column;
+    }
+    .title_1, .title_2{
+        font-size: 36pt;
+    }
+
+}

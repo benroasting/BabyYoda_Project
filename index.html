@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Baby Yoda Bio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" media="screen"  href="media.css"/>
+
+    </head>
+    <body>
+    <!-- NavBar -->
+        <header>
+            <div class="menu_left">
+                <ul>
+                    <li><a onClick="scrollToBackground()">BACKGROUND</a></li>
+                    <li><a onClick="scrollToEmotions()">EMOTIONS</a></li>
+                    <li><a onClick="scrollToSkills()">SKILLS</a></li>
+                </ul>
+            </div>
+            <a onClick="scrollToHome()"><img class="yoda_home" src="./logos/logo.svg" /></a>
+            <div class="menu_right">
+                <ul>
+                    <li><a onClick="scrollToFriends()">FRIENDS</a></li>
+                    <li><a onClick="scrollToFood()">FOOD</a></li>
+                    <li><button class="contact_button" onClick="scrollToContact()">CONTACT</button></li>
+                </ul>
+            </div>
+        </header>
+    <!-- Top Section -->
+        <div id="home" class="video_container">
+            <video src="cutenessOverload.mp4" autoplay loop muted></video>
+        </div>
+        <div class="cuteness_section">
+            <h1 class="heading_1">CUTENESS</h1>
+            <h1 class="heading_2">OVERLOAD</h1>
+            <p>
+                Who wants a regular old baby when you could have a baby Yoda to devote
+                your life to? No one that’s who.
+            </p>
+            <button class="video_button" href="https://www.youtube.com/watch?v=QFzQuDn4SjE">
+                WATCH THE VIDEO
+            </button>
+        </div>
+
+    <!-- Background Section -->
+        <section id="background" class="background_container">
+            <div class="title">
+                <h2 class="title_1">HE</h2>
+                <h2 class="title_2">WHO IS</h2>
+            </div>
+            <div class="background_section">
+                <div class="photo_gallery">
+                    <img class="he_img he_img_1" src="./background images/soup.jpg" />
+                    <img class="he_img he_img_2" src="./background images/stroller.png" />
+                    <img class="he_img he_img_3" src="./background images/buttons.jpg" />
+                </div>
+                <div class="background_info">
+                    <h3 class="subheading_back">THE THEORIES</h3>
+                    <p class="back_text">
+                        Adorable baby Yoda is. Cute concept art baby Yoda has. The force baby
+                        Yoda can use. Baby Yoda who is? He come from where does? He even a he
+                        is? A lot of theories going around they are, some of our own thoughts
+                        collected did we. Gathered up all of the theories we have. Warned:
+                        they range from the reasonable to the be, uh... less reasonable.
+                        Hrmmm.
+                    </p>
+                    <button class="back_button_1" href="#">MEET HIS FRIENDS</button>
+                    <button class="back_button_2"
+                        href="https://www.cnet.com/news/who-or-what-is-baby-yoda-in-the-mandalorian-our-wildest-theories-so-far/"
+                    >
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    <!-- Emotion Section -->
+        <section id="emotions" class="emotions">
+            <h2 class="emo_slider_heading">EMOTIONAL STATES</h2>
+            <div class="emo_slider_container">
+                    <div class="emo_card current">
+                        <span class="emo_info">
+                            <h1 class="emo">SAD</h1>
+                            <div class="emo_text">
+                                <h3 class="subtitle">WHY SO CRUEL? HMMM.</h3>
+                                <p>For baby Yoda 13/10 people would die. 
+                                    You see how sad he is? At those down-turned ears look! 
+                                    Baby Yoda needs a pick-me-up and a warm cup of frog leg soup.
+                                </p>
+                            </div>
+                        </span>
+                        <div class="emo_img_container">
+                            <img class="emo_img" src="./emotional states section images/sad.jpg" alt="sad_image"/>
+                        </div>
+                    </div> 
+                    <div class="emo_card">
+                        <span class="emo_info">
+                            <h1 class="emo happy">HAPPY</h1>
+                            <div class="emo_text">
+                                <h3 class="subtitle">WHEN HE SMILES WE SMILE</h3>
+                                <p>When baby Yoda is happy we love. At that smile look. 
+                                    The cutest alien thing ever he is. Our hearts he melts.
+                                </p>
+                            </div>
+                        </span>
+                        <div class="emo_img_container">
+                            <img class="emo_img" src="./emotional states section images/happy.jpg" alt="happy_image"/>
+                        </div>
+                    </div> 
+                    <div class="emo_card">
+                        <span class="emo_info">
+                            <h1 class="emo hungry">HUNGRY</h1>
+                            <div class="emo_text">
+                                <h3 class="subtitle hungry">HAVE MOOD SWINGS HE DOES NOT, HAVE FOOD SWINGS HE DOES</h3>
+                                <p>A growing boy he is! To eat his favorite foods he loves. 
+                                    Check out his favorite foods down below. Yes, hrrrm.
+                                </p>
+                            </div>
+                        </span>
+                        <div class="emo_img_container">
+                            <img class="emo_img" src="./emotional states section images/hungry.png" alt="hungry_image"/>
+                        </div>
+                    </div>
+                    <div class="emo_card">
+                        <span class="emo_info">
+                            <h1 class="emo tired">TIRED</h1>
+                            <div class="emo_text">
+                                <h3 class="subtitle">TUCKERED OUT HE GETS</h3>
+                                <p>Him super sleepy all of the action makes. 
+                                    Energy to crush bad guys, make friends, and have fun, he needs his rest to have.
+                                </p>
+                            </div>
+                        </span>
+                        <div class="emo_img_container">
+                            <img class="emo_img" src="./emotional states section images/tired.jpeg" alt="tired_image"/>
+                        </div>
+                    </div>
+                    <button id="prev">
+                        <img src="./arrow.png" alt="">
+                    </button>
+                    <button id="next">
+                        <img src="./arrow.png" alt="">
+                    </button>  
+                
+            </div>
+        </section>
+
+    <!-- Skills Section -->
+        <div id="skills" class="title">
+            <h2 class="title_2">THE</h2>
+            <h2 class="title_1">SKILLS</h2>
+        </div>
+            <hr class="black_line"/>
+            <hr class="green_line"/>
+            <hr class="black_line"/>
+        <section id="skills" class="skills_section">
+            <div class="skills_grid"></div>
+                <div class="skills_col">
+                    <p class="circle">1</p>
+                    <h2 class="headline">THE FORCE</h2>
+                    <p class="skill_info">Long until this small creature achieves jedi master status it won’t be. 
+                        The original Yoda achieved that rank at the age of 100. 
+                        Likely to be rapid development from the age of 50 to 100 in the child there is. Yes, hrrrm.
+                    </p>
+                </div>
+                <div class="skills_col">
+                    <p class="circle">2</p>
+                    <h2 class="headline">SERIOUS CUTENESS</h2>
+                    <p class="skill_info">Helpless in the face of baby Yoda humanity is. 
+                        Those saucer-size eyes, x-wing ears, adorable enough to melt any heart and three-digit mitts are. 
+                        Much choice in the matter: science says we’re all programmed to react a certain way when 
+                        we see the little green guy you don’t even have.
+                    </p>
+                </div>
+                <div class="skills_col">
+                    <p class="circle">3</p>
+                    <h2 class="headline">HIDE AND SEEK</h2>
+                    <p class="skill_info">Not the fun, hiding for his life aboard the Mandalorian's ship no-high-stakes preschool
+                        version though -- baby Yoda is. That when you see how cute he is peeking out from behind machinery 
+                        but you almost forget. A baby he may be, how to stay alive but he still knows.
+                    </p>
+                </div>
+            </div> 
+        </section>
+
+    <!-- Friends Section -->
+        <div id="friends" class="friend_slider_heading">
+            <h2 class="head_friends">FRIENDS</h2>
+            <h2 class="head_slash">/</h2>
+            <h2 class="head_foes">FOES</h2>
+        </div>
+        <section class="friend">
+            <button class="pre-btn"><img src="./arrow.png" alt=""></button>
+            <button class="nxt-btn"><img src="./arrow.png" alt=""></button>
+            <div class="slider_container">
+                    <div class="friend_card">
+                        <div class="friend_img_container">
+                            <img class="friend_img" src="./friends images/peli-moto.jpg" alt="peli-moto"/>
+                        </div>
+                        <div class="character_info">
+                            <p class="status">FRIEND</p>
+                            <p class="friend_name">PELI MOTTO</p>
+                        </div>
+                    </div>
+                    <div class="friend_card">
+                        <div class="friend_img_container">
+                            <img class="friend_img" src="./friends images/mandalorian.jpeg" alt="mandalorian"/>
+                        </div>
+                        <div class="character_info">
+                            <p class="status">FRIEND</p>
+                            <p class="friend_name">THE MANDALORIAN</p>
+                        </div>
+                    </div>
+                    <div class="friend_card">
+                        <div class="friend_img_container">
+                            <img class="friend_img" src="./friends images/trooper.jpg" alt="trooper"/>
+                        </div>
+                        <div class="character_info">
+                            <p class="status">FOE</p>
+                            <p class="friend_name">SCOUT TROOPER</p>
+                        </div>
+                    </div>
+                    <div class="friend_card">
+                        <div class="friend_img_container">
+                            <img class="friend_img" src="./friends images/cara-dune.jpg" alt="cara-dune"/>
+                        </div>
+                        <div class="character_info">
+                            <p class="status">FRIEND</p>
+                            <p class="friend_name">CARA DUNE</p>
+                        </div>
+                    </div>
+                    <div class="friend_card">
+                        <div class="friend_img_container">
+                            <img class="friend_img" src="./friends images/kuiil.jpg" alt="kuiil"/>
+                        </div>
+                        <div class="character_info">
+                            <p class="status">FRIEND</p>
+                            <p class="friend_name">KUIIL</p>
+                        </div>
+                    </div>
+            </div>       
+        </section>
+    <!-- Food Section -->
+        <div id="food" class="food_title">
+            <h2 class="title_1">FAVORITE</h2>
+            <h2 class="title_2">FOODS</h2>
+        </div>
+        <section class="food_section">
+            
+            <div class="food_grid"></div>
+                <div class="food_col">
+                    <div class="stars">
+                        <img class="star" src="./star.svg" />
+                    </div>
+                    <h2 class="food">FROGS</h2>
+                    <p class="food_info">Good for him all frogs are. It doesn't
+                        matter if they're deep fried or raw. Them
+                        he loves.
+                    </p>
+                </div>
+                <div class="food_col">
+                    <div class="stars">
+                        <img class="star" src="./star.svg" />
+                        <img class="star" src="./star.svg" />
+                    </div>
+                    <h2 class="food">CUP OF SOUP</h2>
+                    <p class="food_info">All soups he loves, but warm frog leg soup
+                        his favorite is. Hmm.
+                    </p>
+                </div>
+                <div class="food_col">
+                    <div class="stars">
+                        <img class="star" src="./star.svg" />
+                        <img class="star" src="./star.svg" />
+                        <img class="star" src="./star.svg" />
+                    </div>
+                    <h2 class="food">CHICKY NUGGIES</h2>
+                    <p class="food_info">His absolute fave especially when it's
+                        paired with chocky milk, chicky nuggies
+                        are! All chicky nuggies he loves, his
+                        number one Popeyes is.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    <!-- Contact Section -->
+        <section id="contact" class="contact_section">
+            <div class="left_contact">
+                <img class="yoda_contact" src="./logos/logo.svg" />
+                <hr class="green_line"/>
+                <div class="contact_info_container">
+                    <p class="c_text_1">If lost or stolen, contact the Mandalorian immediately. 
+                        If it is a medical emergency call 911 first, and then the Mandalorian.
+                    </p><br>
+                    <p class="contact_title">THE MANDALORIAN</p>
+                    <p class="contact">719.266.2837</p>
+                    <p class="contact">1 Letterman Drive</p>
+                    <p class="contact">San Francisco, CA 94129</p>
+                    <p class="contact">hello@mandalorian.com</p><br>
+                    <p class="c_text_2">If a frog or another suspicious material has been eaten, 
+                        contact your local poison control, then call the Mandalorian.
+                    </p>
+                    <p class="c_text_2">Poison Control Hotline: 8001.222.1222</p><br>
+                    <p class="c_text_2">Complete the form in this section for all other matters or to request a play date.</p>
+                </div>
+            </div>
+            <div class="right_contact">
+                <form class='contact_form'>
+                    <div className='form-field'>
+                        <label className='form-label'>NAME</label>
+                        <input type='text'/>
+                    </div>
+                    <div className='form-field'>
+                        <label className='form-label'>EMAIL</label>
+                        <input type='text'/>
+                    </div>
+                    <div className='form-field'>
+                        <label className='form-label'>PHONE</label>
+                        <input type='text'/>
+                    </div>
+                    <div className='form-field'>
+                        <label className='form-label'>MESSAGE</label>
+                        <textarea type='text'></textarea>
+                    </div>
+                    
+                    <div className='buttonSection'>
+                        <button type='submit' className="btn">SEND</button>
+                    </div>
+            </div>
+
+        </section>
+
+        <script src="index.js"></script>
+        
+    </body>
+</html>

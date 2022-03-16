@@ -24,13 +24,38 @@
         width: 420px;
     }
     .title_1, .title_2{
-        font-size: 36pt;
+        font-size: 28pt;
+    }
+    .head_friends{
+        font-size: 28pt;
+    }
+    .head_slash{
+        font-size: 28pt;
+    }
+    .head_foes{
+        font-size: 28pt;
+    }
+    .friend{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .slider_container{
+        padding: 0 2vw;
+    }
+    .yoda_contact{
+        max-width: 100%;
     }
     .left_contact{
         width: 100%;
     }
+    .contact_info_container{
+        padding: 3rem;
+        margin-bottom: 1rem;
+        height: 500px;
+        width: 100%;
+    }
     .right_contact{
-        width: 100vw;
+        width: 100%;
         margin-top:2rem;
     }
     input[type=text]{
@@ -71,6 +96,9 @@
         display: flex;
         flex-direction:column;
     }
+    .background_info{
+        margin-left: 2rem;
+    }
     .emo_slider_heading{
         line-height: 38pt;
         margin-bottom: -20px;
@@ -79,9 +107,56 @@
         max-width: 350px;
         max-width: 100%;
     }
+    .skills_section{
+        display: flex;
+        flex-wrap:wrap;
+        margin-top: 0rem;
+    }
+    .skills_grid{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -3rem;
+    }
+    .skills_col{
+        margin: 0;
+    }
+    .head_friends{
+        font-size: 32pt;
+    }
+    .head_slash{
+        font-size: 32pt;
+    }
+    .head_foes{
+        font-size: 32pt;
+    }
+    .friend{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .slider_container{
+        padding: 0 3vw;
+    }
+    .food_section{
+        display: flex;
+        flex-direction: column;
+        margin-top: -2rem;
+        padding-left: 6rem;
+    }
+    .food_grid{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    .yoda_contact{
+        max-width: 100%;
+    }
     .left_contact{
         width: 100%;
         margin-bottom: 1rem;
+    }
+    .contact_info_container{
+        padding: 1rem;
+        width: 100%;
     }
     .right_contact{
         width: 100%;
@@ -89,11 +164,14 @@
     }
     .contact_form{
         padding-top: 1rem;
-
     }
 
 }
 @media screen and (max-width: 975px) {
+    .skills_section{
+        display: flex;
+        flex-wrap:wrap;
+    }
     .contact_section{
         display: flex;
         flex-direction:column;
@@ -102,4 +180,5 @@
     .right_contact{
         margin-top: -5rem;
     }
+
 }

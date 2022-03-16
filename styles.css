@@ -330,6 +330,7 @@ button#prev img{
 /* Skills Section Styles */
 .black_line{
     border: 4px solid black;
+    width: 100%;
 }
 .circle{
     border-radius: 50%;
@@ -486,13 +487,13 @@ button#prev img{
     justify-content: center;
 }
 .food_section{
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .food_grid{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .food_col{
     width: 275px;
@@ -528,12 +529,17 @@ button#prev img{
 }
 .green_line{
     border: 4px solid #009C74;
+    width: 100%;
+}
+.left_contact{
+    width: 100%;
 }
 .contact_info_container{
     background-color: #1D1C27;
     height: 450px;
     color: white;
     padding: 5rem;
+    width: 100%;
 }
 .c_text_1{
     font-size: 16pt;
@@ -561,7 +567,7 @@ button#prev img{
     background-color: #1D1C27;
     justify-content: center;
     margin-top: 5.5rem;
-    width: 100vw;
+    width: 100%;
     height: 650px;
     border-radius: 50px 0px 0px 0px;
     box-shadow: -2px 15px 15px;
